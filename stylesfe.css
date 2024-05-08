@@ -1,0 +1,98 @@
+/* Signout button style */
+.signout-button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.signout-button:hover {
+    background-color: darkred;
+}
+
+/* Additional styles for the header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+}
+
+
+.center-heading {
+    text-align: center;
+}
+
+
+.header img {
+    max-width: 100px;
+}
+
+.container {
+    max-width: 1500px; 
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; 
+}
+
+/* h2 {
+    text-align: center;
+    color: #fff; 
+    background-color: #007bff;
+    padding: 10px 20px; 
+    border-radius: 5px;
+} */
+
+.container img {
+    max-width: 80px;
+    margin-bottom: 0px; 
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; 
+}
+
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+
+table img {
+    max-width: 100px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+    
+}
+
+
+/* a {
+    color: #007bff; 
+    text-decoration: none; 
+} */
+
+/* a:hover {
+    text-decoration: underline;
+} */
